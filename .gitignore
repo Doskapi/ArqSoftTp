@@ -1,0 +1,7 @@
+
+# virtualenv
+appPython/env
+
+# node_modules
+appNode/node_module
+
