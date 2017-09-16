@@ -1,7 +1,10 @@
 
+# files
+static/files/big
+
 # virtualenv
 appPython/env
 
 # node_modules
-appNode/node_module
+appNode/node_modules
 
