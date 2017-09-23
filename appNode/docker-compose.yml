@@ -1,0 +1,13 @@
+version: '2'
+services:
+  nodejs:
+    build: .
+    # This line maps the contents of the client folder into the container.
+    volumes:
+      - .:/usr/src/app
+  nginx:
+    build: ./nginx
+    ports:
+      - "3001:80"
+    links:
+      - nodejs
