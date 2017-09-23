@@ -4,7 +4,15 @@ static/files/big
 
 # virtualenv
 appPython/env
+appPython/static/files/big
+appPython/static/files/medium
 
 # node_modules
 appNode/node_modules
+appNode/static/files/big
+appNode/static/files/medium
 
+# python files
+appPython/*.pyc
+appPython/build
+appPython/*.py[co]
