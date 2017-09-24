@@ -3,6 +3,8 @@ services:
   nodejs:
     build: .
     # This line maps the contents of the client folder into the container.
+    ports:
+      - "3000:3000"
     volumes:
       - .:/usr/src/app
   nginx:

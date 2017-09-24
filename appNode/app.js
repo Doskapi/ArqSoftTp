@@ -23,5 +23,5 @@ app.get('/resources/slow/:resource_id', function(req, res) {
 });
 
 app.listen(port, function () {
-  console.log('Node app listening on port http://localhost:' + port);
+  console.log('Node app listening on port http://localhost:' + port + '/');
 });
