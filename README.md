@@ -6,6 +6,15 @@
 
 ### Python
 
+#### Python flask
+docker-compose -f docker-compose-flask.yml up
+
+#### Python flask + gunicorn
+docker-compose -f docker-compose-flask-gunicorn.yml up
+
+#### Python flask + gunicorn + nginx
+docker-compose -f docker-compose-flask-gunicorn-nginx.yml up
+
 
 
 ### Node
